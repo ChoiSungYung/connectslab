@@ -1,0 +1,31 @@
+volumes:
+  kafka_volume:
+    driver: local
+
+services:
+  kafka:
+    image: apache/kafka:3.8.0
+    container_name: kafka3
+    ports:
+      - "9092:9092"
+      - "9093:9093"
+    environment:
+      KAFKA_PROCESS_ROLES: 'broker,controller'
+      KAFKA_NODE_ID: '3'
+      KAFKA_CONTROLLER_QUORUM_VOTERS: '1@172.31.24.216:9093,2@172.31.29.95:9093,3@172.31.17.183:9093'
+      KAFKA_LISTENERS: 'PLAINTEXT://:9092,CONTROLLER://:9093'
+      KAFKA_ADVERTISED_LISTENERS: 'PLAINTEXT://172.31.17.183:9092'
+      KAFKA_CONTROLLER_LISTENER_NAMES: 'CONTROLLER'
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: 'CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT'
+    volumes:
+      - /home/ubuntu/instance3/kafka/kafka_data
+  kafka-connect:
+    image: custom-kafka-connect:2.15.0
+    container_name: kafka-connect
+    network_mode: host
+    env_file:
+      - .env
+    environment:
+      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+      AWS_REGION: ${AWS_REGION}

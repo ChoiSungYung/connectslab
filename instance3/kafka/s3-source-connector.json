@@ -1,0 +1,16 @@
+{
+  "name": "s3-source-connector",
+  "config": {
+    "connector.class": "io.aiven.kafka.connect.s3.S3SourceConnector",
+    "aws.access.key.id": "${env:AWS_ACCESS_KEY_ID}",
+    "aws.secret.access.key": "${env:AWS_SECRET_ACCESS_KEY}",
+    "s3.region": "${env:AWS_REGION}",
+    "s3.bucket": "connects-origin",
+    "s3.prefix": "01.rawdata/",
+    "format": "jsonl",
+    "topic": "your-kafka-topic",
+    "tasks.max": "1",
+    "poll.interval.ms": "10000",
+    "file.check.interval.ms": "60000"
+  }
+}
