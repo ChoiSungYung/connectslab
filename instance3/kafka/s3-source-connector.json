@@ -10,7 +10,7 @@
     "format": "jsonl",
     "topic": "your-kafka-topic",
     "tasks.max": "1",
-    "poll.interval.ms": "10000",
-    "file.check.interval.ms": "60000"
+    "poll.interval.ms": "100000",
+    "file.check.interval.ms": "600000"
   }
 }

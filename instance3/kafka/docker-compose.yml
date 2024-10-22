@@ -18,6 +18,8 @@ services:
     image: custom-kafka-connect:latest
     container_name: kafka-connect
     network_mode: host
+    env_file:
+      - .env
     environment:
       - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
       - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
