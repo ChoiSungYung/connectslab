@@ -1,0 +1,270 @@
+[2024-10-21T08:03:10.767+0000] {processor.py:161} INFO - Started process (PID=117) to work on /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:03:10.767+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py for tasks to queue
+[2024-10-21T08:03:10.768+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:03:10.768+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:03:10.772+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:03:10.770+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:03:10.773+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:03:10.790+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py took 0.027 seconds
+[2024-10-21T08:03:40.913+0000] {processor.py:161} INFO - Started process (PID=126) to work on /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:03:40.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py for tasks to queue
+[2024-10-21T08:03:40.915+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:03:40.915+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:03:40.918+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:03:40.917+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:03:40.919+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:03:40.932+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py took 0.023 seconds
+[2024-10-21T08:04:11.066+0000] {processor.py:161} INFO - Started process (PID=141) to work on /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:04:11.068+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py for tasks to queue
+[2024-10-21T08:04:11.069+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:04:11.069+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:04:11.072+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:04:11.071+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:04:11.074+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:04:11.087+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py took 0.027 seconds
+[2024-10-21T08:04:41.233+0000] {processor.py:161} INFO - Started process (PID=150) to work on /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:04:41.234+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py for tasks to queue
+[2024-10-21T08:04:41.235+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:04:41.235+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:04:41.237+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:04:41.236+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:04:41.238+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:04:41.252+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py took 0.023 seconds
+[2024-10-21T08:05:11.392+0000] {processor.py:161} INFO - Started process (PID=159) to work on /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:05:11.393+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py for tasks to queue
+[2024-10-21T08:05:11.394+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:05:11.394+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:05:11.397+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:05:11.396+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:05:11.397+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:05:11.411+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py took 0.023 seconds
+[2024-10-21T08:05:41.547+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:05:41.549+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py for tasks to queue
+[2024-10-21T08:05:41.550+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:05:41.550+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:05:41.554+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:05:41.552+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:05:41.555+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:05:41.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py took 0.029 seconds
+[2024-10-21T08:06:11.706+0000] {processor.py:161} INFO - Started process (PID=177) to work on /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:06:11.707+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py for tasks to queue
+[2024-10-21T08:06:11.708+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:06:11.708+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:06:11.711+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:06:11.709+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:06:11.711+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:06:11.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py took 0.023 seconds
+[2024-10-21T08:06:41.873+0000] {processor.py:161} INFO - Started process (PID=186) to work on /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:06:41.874+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py for tasks to queue
+[2024-10-21T08:06:41.875+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:06:41.875+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:06:41.877+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:06:41.876+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:06:41.878+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:06:41.892+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py took 0.024 seconds
+[2024-10-21T08:07:12.033+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:07:12.034+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py for tasks to queue
+[2024-10-21T08:07:12.035+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:07:12.035+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:07:12.038+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:07:12.037+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:07:12.039+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:07:12.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py took 0.027 seconds
+[2024-10-21T08:07:42.194+0000] {processor.py:161} INFO - Started process (PID=204) to work on /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:07:42.195+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py for tasks to queue
+[2024-10-21T08:07:42.196+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:07:42.196+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:07:42.199+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:07:42.197+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:07:42.200+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:07:42.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py took 0.023 seconds
+[2024-10-21T08:08:12.367+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:08:12.368+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py for tasks to queue
+[2024-10-21T08:08:12.369+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:08:12.369+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:08:12.372+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:08:12.371+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:08:12.373+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:08:12.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py took 0.022 seconds
+[2024-10-21T08:08:24.456+0000] {processor.py:161} INFO - Started process (PID=216) to work on /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:08:24.457+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py for tasks to queue
+[2024-10-21T08:08:24.458+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:08:24.458+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:08:24.461+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:08:24.459+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:08:24.461+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:08:24.475+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py took 0.023 seconds
+[2024-10-21T08:08:54.579+0000] {processor.py:161} INFO - Started process (PID=225) to work on /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:08:54.580+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py for tasks to queue
+[2024-10-21T08:08:54.581+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:08:54.581+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:08:54.583+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:08:54.582+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:08:54.584+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:08:54.599+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py took 0.024 seconds
+[2024-10-21T08:09:24.740+0000] {processor.py:161} INFO - Started process (PID=234) to work on /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:09:24.741+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py for tasks to queue
+[2024-10-21T08:09:24.742+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:09:24.742+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:09:24.745+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:09:24.744+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:09:24.746+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:09:24.760+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py took 0.025 seconds
+[2024-10-21T08:09:54.871+0000] {processor.py:161} INFO - Started process (PID=243) to work on /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:09:54.872+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py for tasks to queue
+[2024-10-21T08:09:54.873+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:09:54.873+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:09:54.876+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:09:54.875+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:09:54.877+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:09:54.890+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py took 0.023 seconds
+[2024-10-21T08:10:25.001+0000] {processor.py:161} INFO - Started process (PID=252) to work on /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:10:25.002+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py for tasks to queue
+[2024-10-21T08:10:25.003+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:10:25.003+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:10:25.005+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:10:25.004+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:10:25.006+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:10:25.020+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py took 0.023 seconds
+[2024-10-21T08:10:55.161+0000] {processor.py:161} INFO - Started process (PID=261) to work on /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:10:55.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py for tasks to queue
+[2024-10-21T08:10:55.163+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:10:55.163+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:10:55.166+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:10:55.165+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:10:55.167+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:10:55.180+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py took 0.025 seconds
+[2024-10-21T08:11:25.304+0000] {processor.py:161} INFO - Started process (PID=270) to work on /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:11:25.305+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py for tasks to queue
+[2024-10-21T08:11:25.306+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:11:25.306+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:11:25.308+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:11:25.307+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:11:25.309+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py
+[2024-10-21T08:11:25.323+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test2-checkpoint.py took 0.024 seconds

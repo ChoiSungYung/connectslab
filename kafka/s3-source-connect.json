@@ -1,0 +1,22 @@
+{
+  "name": "s3-source-connector",
+  "config": {
+    "connector.class": "io.streamthoughts.kafka.connect.filepulse.source.S3SourceConnector",
+    "tasks.max": "1",
+    "aws.access.key.id": "${env:AWS_ACCESS_KEY_ID}",
+    "aws.secret.access.key": "${env:AWS_SECRET_ACCESS_KEY}",
+    "aws.region": "${env:AWS_REGION}",
+    "s3.bucket.name": "connects-origin",
+    "s3.prefix": "01.rawdata/",
+    "fs.listing.class": "io.streamthoughts.kafka.connect.filepulse.fs.S3FSDirectoryListing",
+    "fs.cleanup.policy.class": "io.streamthoughts.kafka.connect.filepulse.fs.clean.DefaultCleanupPolicy",
+    "fs.cleanup.policy.cleanup.interval.ms": "600000",
+    "fs.listing.interval.ms": "100000",
+    "topic": "test-topic",
+    "tasks.reader.class": "io.streamthoughts.kafka.connect.filepulse.fs.reader.BytesArrayInputReader",
+    "internal.kafka.reporter.bootstrap.servers": "172.31.28.191:9092,172.31.29.95:9092,172.31.17.183:9092",
+    "internal.kafka.reporter.topic": "connect-file-pulse-status",
+    "internal.kafka.reporter.topic.replication.factor": "3",
+    "offset.strategy": "name"
+  }
+}

@@ -1,0 +1,6 @@
+git+https://github.com/openai/whisper.git
+boto3
+pydub
+python-dotenv
+ffmpeg-python
+kafka-python

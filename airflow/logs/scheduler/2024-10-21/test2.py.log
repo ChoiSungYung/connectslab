@@ -1,0 +1,270 @@
+[2024-10-21T08:03:10.763+0000] {processor.py:161} INFO - Started process (PID=116) to work on /opt/airflow/dags/test2.py
+[2024-10-21T08:03:10.763+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test2.py for tasks to queue
+[2024-10-21T08:03:10.764+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:03:10.764+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test2.py
+[2024-10-21T08:03:10.767+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:03:10.766+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test2.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:03:10.768+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test2.py
+[2024-10-21T08:03:10.788+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test2.py took 0.029 seconds
+[2024-10-21T08:03:40.909+0000] {processor.py:161} INFO - Started process (PID=125) to work on /opt/airflow/dags/test2.py
+[2024-10-21T08:03:40.910+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test2.py for tasks to queue
+[2024-10-21T08:03:40.911+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:03:40.911+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test2.py
+[2024-10-21T08:03:40.913+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:03:40.912+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test2.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:03:40.914+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test2.py
+[2024-10-21T08:03:40.929+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test2.py took 0.024 seconds
+[2024-10-21T08:04:11.060+0000] {processor.py:161} INFO - Started process (PID=140) to work on /opt/airflow/dags/test2.py
+[2024-10-21T08:04:11.061+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test2.py for tasks to queue
+[2024-10-21T08:04:11.062+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:04:11.062+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test2.py
+[2024-10-21T08:04:11.065+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:04:11.064+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test2.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:04:11.066+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test2.py
+[2024-10-21T08:04:11.081+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test2.py took 0.027 seconds
+[2024-10-21T08:04:41.229+0000] {processor.py:161} INFO - Started process (PID=149) to work on /opt/airflow/dags/test2.py
+[2024-10-21T08:04:41.230+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test2.py for tasks to queue
+[2024-10-21T08:04:41.231+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:04:41.231+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test2.py
+[2024-10-21T08:04:41.233+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:04:41.232+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test2.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:04:41.234+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test2.py
+[2024-10-21T08:04:41.249+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test2.py took 0.024 seconds
+[2024-10-21T08:05:11.387+0000] {processor.py:161} INFO - Started process (PID=158) to work on /opt/airflow/dags/test2.py
+[2024-10-21T08:05:11.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test2.py for tasks to queue
+[2024-10-21T08:05:11.389+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:05:11.389+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test2.py
+[2024-10-21T08:05:11.392+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:05:11.391+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test2.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:05:11.393+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test2.py
+[2024-10-21T08:05:11.408+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test2.py took 0.024 seconds
+[2024-10-21T08:05:41.542+0000] {processor.py:161} INFO - Started process (PID=167) to work on /opt/airflow/dags/test2.py
+[2024-10-21T08:05:41.543+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test2.py for tasks to queue
+[2024-10-21T08:05:41.544+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:05:41.544+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test2.py
+[2024-10-21T08:05:41.547+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:05:41.546+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test2.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:05:41.547+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test2.py
+[2024-10-21T08:05:41.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test2.py took 0.025 seconds
+[2024-10-21T08:06:11.702+0000] {processor.py:161} INFO - Started process (PID=176) to work on /opt/airflow/dags/test2.py
+[2024-10-21T08:06:11.703+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test2.py for tasks to queue
+[2024-10-21T08:06:11.704+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:06:11.704+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test2.py
+[2024-10-21T08:06:11.706+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:06:11.705+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test2.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:06:11.707+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test2.py
+[2024-10-21T08:06:11.722+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test2.py took 0.024 seconds
+[2024-10-21T08:06:41.869+0000] {processor.py:161} INFO - Started process (PID=185) to work on /opt/airflow/dags/test2.py
+[2024-10-21T08:06:41.870+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test2.py for tasks to queue
+[2024-10-21T08:06:41.871+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:06:41.871+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test2.py
+[2024-10-21T08:06:41.873+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:06:41.872+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test2.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:06:41.874+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test2.py
+[2024-10-21T08:06:41.889+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test2.py took 0.024 seconds
+[2024-10-21T08:07:12.025+0000] {processor.py:161} INFO - Started process (PID=194) to work on /opt/airflow/dags/test2.py
+[2024-10-21T08:07:12.026+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test2.py for tasks to queue
+[2024-10-21T08:07:12.028+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:07:12.028+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test2.py
+[2024-10-21T08:07:12.031+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:07:12.030+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test2.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:07:12.033+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test2.py
+[2024-10-21T08:07:12.049+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test2.py took 0.028 seconds
+[2024-10-21T08:07:42.190+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/test2.py
+[2024-10-21T08:07:42.191+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test2.py for tasks to queue
+[2024-10-21T08:07:42.193+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:07:42.192+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test2.py
+[2024-10-21T08:07:42.195+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:07:42.194+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test2.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:07:42.196+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test2.py
+[2024-10-21T08:07:42.211+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test2.py took 0.025 seconds
+[2024-10-21T08:08:12.363+0000] {processor.py:161} INFO - Started process (PID=212) to work on /opt/airflow/dags/test2.py
+[2024-10-21T08:08:12.364+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test2.py for tasks to queue
+[2024-10-21T08:08:12.365+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:08:12.365+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test2.py
+[2024-10-21T08:08:12.368+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:08:12.366+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test2.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:08:12.368+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test2.py
+[2024-10-21T08:08:12.382+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test2.py took 0.023 seconds
+[2024-10-21T08:08:24.452+0000] {processor.py:161} INFO - Started process (PID=215) to work on /opt/airflow/dags/test2.py
+[2024-10-21T08:08:24.453+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test2.py for tasks to queue
+[2024-10-21T08:08:24.454+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:08:24.454+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test2.py
+[2024-10-21T08:08:24.457+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:08:24.456+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test2.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:08:24.457+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test2.py
+[2024-10-21T08:08:24.472+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test2.py took 0.024 seconds
+[2024-10-21T08:08:54.575+0000] {processor.py:161} INFO - Started process (PID=224) to work on /opt/airflow/dags/test2.py
+[2024-10-21T08:08:54.576+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test2.py for tasks to queue
+[2024-10-21T08:08:54.577+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:08:54.577+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test2.py
+[2024-10-21T08:08:54.579+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:08:54.578+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test2.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:08:54.580+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test2.py
+[2024-10-21T08:08:54.595+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test2.py took 0.024 seconds
+[2024-10-21T08:09:24.732+0000] {processor.py:161} INFO - Started process (PID=233) to work on /opt/airflow/dags/test2.py
+[2024-10-21T08:09:24.733+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test2.py for tasks to queue
+[2024-10-21T08:09:24.734+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:09:24.734+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test2.py
+[2024-10-21T08:09:24.738+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:09:24.736+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test2.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:09:24.739+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test2.py
+[2024-10-21T08:09:24.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test2.py took 0.030 seconds
+[2024-10-21T08:09:54.867+0000] {processor.py:161} INFO - Started process (PID=242) to work on /opt/airflow/dags/test2.py
+[2024-10-21T08:09:54.869+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test2.py for tasks to queue
+[2024-10-21T08:09:54.870+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:09:54.870+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test2.py
+[2024-10-21T08:09:54.872+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:09:54.871+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test2.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:09:54.873+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test2.py
+[2024-10-21T08:09:54.889+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test2.py took 0.026 seconds
+[2024-10-21T08:10:24.997+0000] {processor.py:161} INFO - Started process (PID=251) to work on /opt/airflow/dags/test2.py
+[2024-10-21T08:10:24.997+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test2.py for tasks to queue
+[2024-10-21T08:10:24.999+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:10:24.998+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test2.py
+[2024-10-21T08:10:25.001+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:10:25.000+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test2.py", line 50, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:10:25.002+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test2.py
+[2024-10-21T08:10:25.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test2.py took 0.024 seconds
+[2024-10-21T08:10:55.154+0000] {processor.py:161} INFO - Started process (PID=260) to work on /opt/airflow/dags/test2.py
+[2024-10-21T08:10:55.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test2.py for tasks to queue
+[2024-10-21T08:10:55.156+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:10:55.156+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test2.py
+[2024-10-21T08:10:55.159+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:10:55.158+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test2.py", line 50, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:10:55.160+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test2.py
+[2024-10-21T08:10:55.177+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test2.py took 0.028 seconds
+[2024-10-21T08:11:25.299+0000] {processor.py:161} INFO - Started process (PID=269) to work on /opt/airflow/dags/test2.py
+[2024-10-21T08:11:25.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test2.py for tasks to queue
+[2024-10-21T08:11:25.301+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:11:25.301+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test2.py
+[2024-10-21T08:11:25.304+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:11:25.303+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test2.py", line 50, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2024-10-21T08:11:25.304+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test2.py
+[2024-10-21T08:11:25.320+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test2.py took 0.024 seconds

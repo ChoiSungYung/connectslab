@@ -1,0 +1,10 @@
+services:
+  whisper:
+    build: .
+    volumes:
+      - ./audio:/app/audio
+      - ./split_audio:/app/split_audio  # 분할된 오디오 파일 저장용
+      - ./split_text:/app/split_text    # 텍스트 파일 저장용
+    container_name: whisper_container
+    environment:
+      - PYTHONUNBUFFERED=1

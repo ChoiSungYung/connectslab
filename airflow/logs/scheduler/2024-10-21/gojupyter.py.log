@@ -1,0 +1,15 @@
+[2024-10-21T08:43:15.190+0000] {processor.py:161} INFO - Started process (PID=797) to work on /opt/airflow/dags/gojupyter.py
+[2024-10-21T08:43:15.190+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gojupyter.py for tasks to queue
+[2024-10-21T08:43:15.191+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:43:15.191+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gojupyter.py
+[2024-10-21T08:43:15.196+0000] {logging_mixin.py:188} INFO - [2024-10-21T08:43:15.194+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/gojupyter.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/gojupyter.py", line 18, in <module>
+    python_callable=go_jupyter,
+                    ^^^^^^^^^^
+NameError: name 'go_jupyter' is not defined. Did you mean: 'hello_jupyter'?
+[2024-10-21T08:43:15.199+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/gojupyter.py
+[2024-10-21T08:43:15.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gojupyter.py took 0.027 seconds
